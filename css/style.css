@@ -1,0 +1,350 @@
+p{
+ font-family: 'Droid Sans', sans-serif;
+}
+/*bach t7ayed border mn blockquote*/ 
+blockquote
+{
+ border:0px;
+}
+
+/*navigation*/
+.navbar
+{
+ background-color:#242424;
+ border-bottom:1px solid #b9b9b9;
+ font-family: 'Lato', sans-serif;
+}
+.navbar a
+{
+ color:#cccccc !important;
+
+}
+.navbar a:hover
+{
+ color:#ffffff !important;
+ background-color:#646464 !important;
+}
+.navbar-header .navbar-brand
+{
+
+color:#ffffff !important;
+font-size:1.5em;
+}
+.navbar-default .nav li.active a
+{
+ color:#1d1d1d !important;
+ 
+}
+
+/*header*/
+.header
+{
+   padding: 140px 0 60px  ;
+   background: url(../img/bg.jpg) no-repeat center center;
+   background-size:cover;
+   width:100%;
+   border-bottom:2px solid #c9c9c9;
+}
+.header h1
+{
+ color:white;
+ font-family: 'Pacifico', cursive;
+ font-size:7.5em;
+}
+.header p
+{
+color:white;
+font-size:1.3em;
+}
+.header .btn
+{
+ padding:5px 50px 5px 50px;
+ border-radius:0px;
+
+}
+
+@media(max-width:760px)
+{
+.header
+{
+ text-align:center;
+ padding-top:20%;
+}
+.header h1 
+{
+ font-size:5em;
+
+}
+.header p
+{
+ font-size:1em;
+}
+
+.header .btn
+{
+padding:5px 12px 5px 12px;
+
+}
+
+.header img
+{
+ padding-top:10%;
+}
+
+
+}
+/*END HEADER*/
+ 
+/*ABOUT*/
+
+.about
+{
+ padding: 100px 0 100px;
+ text-align:center;
+ 
+}
+.about h1
+{
+ font-size:1.7em;
+ color: #337ab7;
+ padding: 0 0 25px;
+}
+.about p
+{
+ padding-bottom:25px;
+ 
+}
+
+
+/*END ABOUT*/
+
+/*FEATURES*/
+
+.features
+{
+background-color:#337ab7;
+color:white;
+text-align:center;
+padding: 90px 0 90px;
+
+}
+.features h1 
+{
+font-size:2em;
+padding-bottom:25px;
+}
+.features img
+{
+ padding: 15px 0 35px;
+
+}
+/* tari9a dyali
+.press
+{
+ padding:100px 0 100px;
+
+}
+.press h1
+{
+color:#337ab7;
+}
+.press p
+{
+ 
+ padding-top:25px;
+}
+.press img
+{
+opacity:0.2;
+
+}
+*/ 
+
+
+
+/*END FEATURES*/
+
+/*PRESS*/
+
+.press
+{
+padding:90px 0 90px;
+text-align:center;
+}
+.press h1 
+{
+font-size:1.8em;
+color:#337ab7;
+padding-bottom:25px;
+}
+img.desaturate {
+	filter: grayscale(100%);
+}
+.press .press-logo li img
+{
+opacity:0.3;
+
+}
+.press .press-logo li:hover img
+{
+opacity:1;
+}
+
+/*bach twali img blanc et noir*/
+.about img {
+    filter: url('../js/filters.svg#grayscale'); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies, Google Chrome Canary and Microsoft Edge*/
+}
+img:hover {
+    filter: none; /* Applies to FF + IE */
+    -webkit-filter: grayscale(0);
+}
+
+/*SCREEN SHOTS*/
+
+.screenshots
+{
+background-color:#235178;
+padding:90px 0 90px;
+text-align:center;
+color:white;
+}
+.screenshots img
+{
+padding:20px 0 20px;
+}
+
+.screenshots h1
+{
+ font-size:2em;
+}
+
+/*REVIEWS*/
+
+.reviews 
+{
+ text-align:center;
+ padding:90px 0 90px;
+}
+.reviews h1
+{
+ color:#337ab7;
+ font-size:2em;
+ padding-bottom:25px;
+}
+.reviews p
+{
+ padding-bottom:35px;
+}
+.reviews .lines2
+{
+ padding-top:35px;
+
+}
+
+/*BUY*/
+.buy
+{
+ padding:100px 0 100px;
+ background-color:#1c3f5c;
+ text-align:center;
+ color:white;
+}
+.buy h1
+{
+font-size:2em;
+padding-bottom:25px;
+}
+.buy button
+{
+background:transparent;
+border:none;
+padding-top:25px;
+}
+
+/*Contact*/
+/* tari9a dyali
+.contact
+{
+padding: 100px 0 100px;
+text-align:center;
+}
+.contact h1 
+{
+ font-size:2em;
+}
+.contact p
+{
+ padding: 25px 0 25px;
+ 
+ 
+ 
+}
+
+.contact li i
+{
+ color:#1c3f5c;
+ 
+}
+.contact .line1 ul li 
+{
+ padding:0 35px 0 0 ;
+}
+  */
+ .contact 
+ {
+ padding:100px 0 100px;
+ text-align:center;
+}
+.contact h1
+{
+ font-size:2em;
+ padding-bottom:25px;
+}
+.contact .fa {
+ color:#1c3f5c;
+ padding:20px 10px 40px;
+}
+.contact li 
+{
+ padding-top:10px;
+}
+/*FOOTER*/
+.footer
+{
+ background-color:#242424;
+ color:white;
+ padding: 30px 0 30px;
+}	
+.footer h1
+{
+ font-size:1.5em;
+  font-family: 'Droid Sans', sans-serif;
+} 
+.footer p
+{
+font-size:0.9em;
+}
+.footer a
+{
+color:#f2f2f2;
+}
+
+
+
+
+
+
+.contact hr.Mystyle {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(107, 185, 240), rgba(0, 0, 0, 0));
+    border: 0 none;
+    height: 1px;
+
+
+
+
+
+
+
+	
